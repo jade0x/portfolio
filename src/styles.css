@@ -56,6 +56,10 @@ footer a {
   text-decoration: none;
 }
 
+.nav-bar {
+  background: transparent;
+}
+
 .social-icons {
   padding: 20px 0px;
 }
