@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-bg: #fafafa;
+  --color-text: #212121;
+  --color-nav: #2e2e2e;
+  --color-nav-text: #e0e0e0;
+  --color-accent: #f4c300;
+  --color-accent-text: #212121;
+
+  /* States */
+  --color-btn-hover: #e6b200; /* slightly darker yellow for hover/focus */
+}
+
+/*Dark theme overrides*/
+[data-theme="dark"] {
+  --color-bg: #121212;
+  --color-text: #e0e0e0;
+  --color-nav: #1f1f1f;
+  --color-nav-text: #e0e0e0;
+  --color-accent: #f4c300;
+  --color-accent-text: #121212;
+
+  /* State */
+  --color-btn-hover: #e6b200;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1.6rem;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 1200px;
+}
+
+footer {
+  margin: 60px 0px 0px 0px;
+  background-color: var(--color-nav);
+  color: var(--color-nav-text);
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-nav-text);
+  text-decoration: none;
+}
+
+.social-icons {
+  padding: 20px 0px;
+}
+
+.social-icons i {
+  font-size: 1.2em;
+  color: var(--color-nav-text);
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+}
+
+.nav-bar2 {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar2 li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav-bar2 li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.nav-bar2 li a:hover {
+  transform: scale(1.15);
+}
+
+.copyright {
+  margin: 0 auto;
+  font-size: 0.7em;
+  padding: 10px;
+  border-top: solid 1px #e0e0e0;
+  max-width: 1200px;
+}
+
+.copyright a:hover {
+  color: var(--color-btn-hover);
+}
