@@ -76,16 +76,24 @@ a:hover {
   color: var(--color-btn-hover);
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Staatliches", sans-serif;
+  color: var(--color-text);
+}
+
+h1 {
   font-size: 5em;
 }
 
 h2 {
-  font-family: "Staatliches", sans-serif;
   font-size: 3.5em;
   line-height: 0.9em;
-  color: var(--color-text);
+}
+
+h3 {
+  font-size: 3rem;
 }
 
 .button {
@@ -166,10 +174,29 @@ h2 {
   text-align: center;
 }
 
+.headshot img {
+  border-radius: 20px;
+  padding-bottom: 15px;
+  max-height: 300px;
+}
+
 .about {
-  background-color: red;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0px;
+  line-height: 1.2;
+}
+
+.headshot {
+  margin: auto;
+  padding: 15px;
+  border: 1px solid var(--color-text);
+  border-radius: 20px;
+  text-align: center;
+  max-width: fit-content;
+}
+
+.bio {
+  padding-top: 10px;
 }
 
 .contact-list article {
@@ -210,6 +237,10 @@ h2 {
   padding: 20px 0px;
 }
 
+.headshot .social-icons {
+  padding: 5px;
+}
+
 .social-icons i {
   font-size: 1.2em;
   color: var(--color-nav-text);
@@ -217,8 +248,17 @@ h2 {
   transition: transform 0.2s ease;
 }
 
+.headshot .social-icons i {
+  color: var(--color-accent);
+}
+
 .social-icons i:hover {
   transform: scale(1.2);
+}
+
+.headshot .social-icons i:hover {
+  transform: scale(1.2);
+  color: var(--color-btn-hover);
 }
 
 .copyright {
@@ -242,6 +282,10 @@ h2 {
 
 @media (max-width: 768px) {
   .contact-list {
+    text-align: center;
+  }
+
+  .bio {
     text-align: center;
   }
 }
