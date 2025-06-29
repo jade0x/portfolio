@@ -97,21 +97,33 @@ h3 {
 }
 
 h4 {
-  font-weight: 800;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-weight: 600;
   font-size: 3rem;
 }
 
+img {
+  border-radius: 20px;
+}
+
 .button {
-  margin: 30px;
+  margin: 10px;
 }
 
 .button a {
-  padding: 10px 30px;
+  display: inline-block;
+  padding: 15px 30px 10px 30px;
   text-decoration: none;
   background-color: var(--color-bg);
   border: 1px solid var(--color-text);
   border-radius: 30px;
   color: var(--color-accent-text);
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1.1;
+  min-height: 3em;
 }
 
 .button a:hover {
@@ -120,6 +132,7 @@ h4 {
 
 .secondary {
   opacity: 0.5;
+  margin-bottom: 30px;
 }
 
 .nav-bar2 {
@@ -180,7 +193,6 @@ h4 {
 }
 
 .headshot img {
-  border-radius: 20px;
   padding-bottom: 15px;
   max-height: 300px;
 }
@@ -202,6 +214,31 @@ h4 {
 
 .bio {
   padding-top: 10px;
+}
+
+.projects {
+  margin-bottom: 30px;
+}
+
+.project-card {
+  text-align: center;
+  padding: 25px 20px 15px 20px;
+  border: 1px solid var(--color-text);
+  border-radius: 20px;
+  min-height: 100%;
+}
+
+.project-txt {
+  padding-top: 15px;
+}
+
+.project-txt p {
+  line-height: 1.1em;
+  font-size: 0.95em;
+}
+
+.buttons {
+  display: inline-block;
 }
 
 .contact-list article {
