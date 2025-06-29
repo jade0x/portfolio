@@ -96,8 +96,13 @@ h3 {
   font-size: 3rem;
 }
 
+h4 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
 .button {
-  margin: 20px;
+  margin: 30px;
 }
 
 .button a {
@@ -170,7 +175,7 @@ h3 {
 
 .cta {
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
