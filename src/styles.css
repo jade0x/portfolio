@@ -132,7 +132,7 @@ h1 {
   padding: 40px 20px;
 }
 
-#contact-list article {
+.contact-list article {
   padding: 0px 0px 15px 30px;
 }
 
@@ -159,6 +159,11 @@ h1 {
 
 .contact-form button:hover {
   background-color: var(--color-btn-hover);
+}
+
+.contact-list p {
+  text-align: center;
+  align-items: center;
 }
 
 .social-icons {
@@ -196,7 +201,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  #contact-list {
+  .contact-list {
     text-align: center;
   }
 }
