@@ -81,6 +81,34 @@ h1 {
   font-size: 5em;
 }
 
+h2 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 3.5em;
+  line-height: 0.9em;
+  color: var(--color-text);
+}
+
+.button {
+  margin: 20px;
+}
+
+.button a {
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-text);
+  border-radius: 30px;
+  color: var(--color-accent-text);
+}
+
+.button a:hover {
+  background-color: var(--color-accent);
+}
+
+.secondary {
+  opacity: 0.5;
+}
+
 .nav-bar2 {
   padding: 0;
   margin: 0;
@@ -130,6 +158,18 @@ h1 {
 
 .title {
   padding: 40px 20px;
+}
+
+.cta {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about {
+  background-color: red;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .contact-list article {
