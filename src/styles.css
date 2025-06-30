@@ -219,7 +219,7 @@ img {
 }
 
 .title {
-  padding: 40px 20px;
+  padding: 50px 20px;
 }
 
 /* Footer*/
@@ -352,7 +352,7 @@ img {
 
 .about {
   margin: 0 auto;
-  padding: 20px 0px;
+  padding: 20px 0px 50px 0px;
   line-height: 1.2;
 }
 
@@ -420,6 +420,14 @@ img {
 .project-txt p {
   line-height: 1.1em;
   font-size: 0.95em;
+}
+
+.project-list {
+  padding-top: 30px;
+}
+
+.project-list article {
+  padding: 0px 0px 15px 30px;
 }
 
 /* Contact.html */
