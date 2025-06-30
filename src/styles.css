@@ -17,10 +17,10 @@ html {
 }
 
 :root {
-  --color-bg: #fafafa;
+  --color-bg: #fdfdfd;
   --color-text: #212121;
   --color-nav: #2e2e2e;
-  --color-nav-text: #e0e0e0;
+  --color-nav-text: #eeeeee;
   --color-accent: #f4c300;
   --color-accent-text: #212121;
   --color-btn-hover: #e6b200;
@@ -157,9 +157,24 @@ img {
   .bio {
     text-align: center;
   }
+
+  .hero-img img {
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+
+  .hero {
+    padding-bottom: 50px;
+  }
 }
 
 /* Header */
+
+.navbar {
+  padding-bottom: 30px;
+}
+
 .nav-bar2 {
   padding: 0;
   margin: 0;
@@ -252,7 +267,6 @@ img {
 .hero {
   display: flex;
   margin: 0 auto;
-  padding: 20px 0px;
   line-height: 1.2;
   height: 85vh;
   justify-content: center;
@@ -316,17 +330,17 @@ img {
 }
 
 .featured {
-  padding: 50px 0;
   display: block;
 }
 
 .featured .row {
   margin-top: 20px;
   margin-bottom: 50px;
+  padding: 20px 0px;
 }
 
 .featured h2 {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 /* About.html */
